@@ -1,0 +1,11 @@
+export { AccountingTaxSection } from "./AccountingTaxSection";
+export { AdvisorySection } from "./AdvisorySection";
+export { BusinessSetupSection } from "./BusinessSetupSection";
+export { FinalCTASection } from "./FinalCTASection";
+export { HeroSection } from "./HeroSection";
+export { HomeFAQ } from "./HomeFAQ";
+export { ProcessSection } from "./ProcessSection";
+export { ServicesSection } from "./ServicesSection";
+export { TrustStrip } from "./TrustStrip";
+export { UAERegionsSection } from "./UAERegionsSection";
+export { WhyDGNSSection } from "./WhyDGNSSection";
