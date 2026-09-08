@@ -2,7 +2,7 @@
 
 ## Before Deployment
 
-- [ ] Obtain approved DGNS logo, favicon/Apple touch icons, and 1200 × 630 OG image.
+- [ ] Confirm the integrated DGNS logo/favicon and obtain Apple touch icons plus a 1200 × 630 OG image.
 - [ ] Confirm all company, address, email, phone, package, and legal content with DGNS.
 - [ ] Confirm `VITE_SITE_URL=https://dgnsadvisors.ae` in the production environment.
 - [ ] Leave Analytics and Meta Pixel IDs blank unless tracking and consent are approved.

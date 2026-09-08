@@ -157,13 +157,13 @@ automatically uses the generated `404.html` for unknown paths.
 `vercel.json` provides SPA rewrites, baseline headers, and immutable hashed-asset
 caching without adding provider-specific application code.
 
-## Brand Assets Still Required
+## Brand Assets
 
-The supplied website screenshots are content references, not production logo
-files. The current header/footer use an accessible text wordmark. Before final
-public launch, obtain an approved transparent SVG or high-resolution PNG logo,
-favicon/Apple touch icon family, and 1200 × 630 social-sharing image. Do not
-crop, trace, stretch, or redraw the screenshot logo.
+The shared header/footer use the transparent DGNS WebP logo in
+`src/assets/images/brand/`, and `index.html` uses the matching WebP favicon.
+The supplied website screenshots remain reference material only. An approved
+SVG master, Apple touch icon family, and 1200 × 630 social-sharing image can be
+added when available.
 
 Use `PRODUCTION_CHECKLIST.md` for the final pre-launch and post-deployment
 verification pass.

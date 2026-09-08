@@ -1,11 +1,12 @@
 # DGNS brand assets
 
-The supplied website screenshots are content references only. They do not
-contain a production-quality, transparent, or vector DGNS Advisors logo, so no
-logo has been cropped, traced, or redrawn from them.
+The supplied website screenshots remain content references only and are not
+used as production assets.
 
-The production fallback is an accessible text wordmark in
-`src/components/layout/Logo.tsx`. Replace it only when an approved official
-asset is supplied. Prefer SVG; otherwise use a transparent high-resolution
-image with its original aspect ratio and adequate light/dark contrast. Keep the
-home-link accessible name when updating the component.
+`images/brand/dgns-logo-1.webp` is the transparent logo used by the shared
+header, footer, and mobile-navigation logo component.
+`images/brand/DGNS Favicon.webp` is the browser favicon referenced by
+`index.html`.
+
+If an approved SVG master becomes available later, replace the WebP logo while
+preserving its original aspect ratio and the home link's accessible name.

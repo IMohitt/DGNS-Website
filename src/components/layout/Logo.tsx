@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import dgnsLogo from "../../assets/images/brand/dgns-logo-1.webp";
 import { siteConfig } from "../../config/siteConfig";
 import { cn } from "../../utils/cn";
 
@@ -7,30 +8,27 @@ export type LogoProps = {
   compact?: boolean;
 };
 
-/**
- * Accessible text-wordmark fallback used while the official DGNS logo asset is
- * unavailable. See `src/assets/README.md` before replacing it.
- */
 export function Logo({ className, compact = false }: LogoProps) {
   return (
     <Link
       to="/"
       aria-label={`${siteConfig.shortName} home`}
       className={cn(
-        "inline-flex min-h-11 shrink-0 items-center rounded-md text-white",
+        "inline-flex min-h-11 shrink-0 items-center rounded-md",
         className,
       )}
     >
-      <span aria-hidden="true" className="inline-flex items-center">
-        <span className="text-lg font-extrabold leading-none tracking-[0.15em]">
-          DGNS
-        </span>
-        {!compact ? (
-          <span className="ml-3 border-l border-brand-lime/55 pl-3 text-[0.625rem] font-bold leading-none tracking-[0.24em] text-brand-lime">
-            ADVISORS
-          </span>
-        ) : null}
-      </span>
+      <img
+        src={dgnsLogo}
+        alt=""
+        aria-hidden="true"
+        width="644"
+        height="387"
+        className={cn(
+          "block w-auto object-contain",
+          compact ? "h-10" : "h-14 nav:h-16",
+        )}
+      />
     </Link>
   );
 }
